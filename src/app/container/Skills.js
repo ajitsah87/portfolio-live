@@ -7,26 +7,26 @@ function Skills() {
   const [descrip, setDescrip] = useState('');
 
   const svg = [
-    {title: "html.svg", descrip: 'html'},
-    {title: "css.svg", descrip: 'css'},
-    {title:"javascript.svg", descrip: 'javaScript'},
-    {title: "nodejs.svg", descrip: 'node'},
-    {title: "react.svg", descrip: 'react'},
-    {title: "next.svg", descrip: 'next'},
-    {title: "tailwind-css.svg", descrip: 'tailwindcss'},
-    {title:"express-js.svg", descrip: 'express'},
+    {title: "html.svg", descrip: 'HTML is the standard markup language for creating Web pages.'},
+    {title: "css.svg", descrip: 'CSS is the language we use to style a Web page.'},
+    {title:"javascript.svg", descrip: 'JavaScript is a scripting or programming language that allows you to implement complex features on web pages'},
+    {title: "nodejs.svg", descrip: 'noAs an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications.de'},
+    {title: "react.svg", descrip: 'React.js, more commonly known as React, is a free, open-source JavaScript library. It works best to build user interfaces by combining sections of code (components) into full websites.'},
+    {title: "next.svg", descrip: 'Next.js is a React framework for building full-stack web applications. You use React Components to build user interfaces, and Next.js for additional features and optimizations.'},
+    {title: "tailwind-css.svg", descrip: 'Tailwind CSS works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.'},
+    {title:"express-js.svg", descrip: 'Express.js is a back end web application framework for building RESTful APIs with Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js'},
   ];
 
   return (
     <>
-      <div id='/skills' className="h-[30rem]  w-[75%]  mx-auto">
+      <div id='/skills' className="h-[30rem] ">
         <h2 className="text-3xl font-semibold text-center  top-0 p-2 mb-20 delay-small-reveal">
           <span className="text-white">Skills</span>
           <span className="text-[#986dff]">{"{}"}</span>
         </h2>
-        <div className="flex max-1200:flex-col max-1200:gap-12 justify-around">
+        <div className="flex max-1200:flex-col max-1200:gap-12 justify-around gap-4">
           <div className="flex-1">
-            <p className="text-[#9ca3af] ">
+            <p className="text-[#9ca3af] max-1200:hidden">
                {descrip ? (
             <span
             

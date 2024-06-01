@@ -16,6 +16,10 @@ module.exports = {
         1200: '1200px',
         768: '768px',
         500: '500px'
+      },
+      transitionDuration: {
+        "3000": "3000ms",
+        "8000": "8000ms"
       }
     },
   },

@@ -16,9 +16,9 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="bg-[#111111] z-10 h-22 sticky top-0 w-full">
-      <div className="container mx-auto w-[75%] flex items-center justify-between p-7">
-        <div className="text-white text-[1.8rem] font-semibold">
+    <div className="bg-[#111111] h-22 fixed top-0 left-0 right-0 z-50">
+      <div className="flex items-center justify-between p-7 max-w-screen-xl mx-auto">
+        <div className="text-white text-[1.8rem] font-semibold ">
           <h1 className="cursor-pointer ">Ajit.dev</h1>
         </div>
         <span

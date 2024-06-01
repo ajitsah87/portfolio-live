@@ -8,7 +8,7 @@ import Skills from "./container/Skills";
 
 export default function Home() {
   return (
-    <>
+    <div className="w-[min(1250px,100%-3rem)] mx-auto">
     <Navbar/>
     <Intro/>
     <About/>
@@ -16,6 +16,6 @@ export default function Home() {
     <Skills/>
     <Contact/>
 
-    </>
+    </div>
   )
 }

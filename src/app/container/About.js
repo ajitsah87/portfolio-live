@@ -18,7 +18,7 @@ function About() {
   
   return (
     <>
-      <div id="/about" className="mx-auto w-[75%] border-[2px] border-neutral-800 rounded-[5px] bg-[#151515] p-10 flex items-center justify-between mb-[15rem] gap-6 max-[1120px]:flex-col">
+      <div id="/about" className="border-[2px] border-neutral-800 rounded-[5px] bg-[#151515] p-10 flex items-center justify-between mb-[10rem] max-lg:mb-[6rem] gap-6 max-[1120px]:flex-col">
         <div className="w-1/2 max-[1120px]:w-full">
           <img className="w-full h-full object-cover" src="me.svg" alt="img" />
         </div>
