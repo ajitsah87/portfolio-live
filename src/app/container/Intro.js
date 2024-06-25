@@ -12,6 +12,7 @@ function Intro() {
             As a passionate and self-taught front-end developer,Through my projects, I aim to blend aesthetics with functionality, crafting immersive web experiences that captivate users.You will get know about my journey of learning here.
           </p>
           <a download
+          target="_blank"
             href="/assets/Ajit_Sah_Resume.pdf"
             class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all shadow bg-white rounded hover:bg-white group"
           >
