@@ -45,7 +45,7 @@ function About() {
                 transition={{ delay: 0.07*1 }}
                 className="border-[2px] hover:border-[#986dff] transition-colors duration-500 ease-linear border-neutral-800 rounded-[7px] p-4 bg-[#151515]"
               >
-                <a href="#">
+                <a href="https://github.com/ajitsah87">
                   <SlSocialGithub className="text-3xl text-[#986dff]" />
                 </a>
               </motion.li>
@@ -55,7 +55,7 @@ function About() {
                 transition={{ delay: 0.07*2 }}
                 className="border-[2px] hover:border-[#986dff] transition-colors duration-500 ease-linear border-neutral-800  rounded-[7px]  p-4 bg-[#151515]"
               >
-                <a href="#">
+                <a href="https://www.linkedin.com/in/ajit-sah-277268259/">
                   <PiLinkedinLogo className="text-3xl text-[#986dff]" />
                 </a>
               </motion.li>
@@ -66,7 +66,7 @@ function About() {
                 transition={{ delay: 0.07*3 }}
                 className="border-[2px] hover:border-[#986dff] transition-colors duration-500 ease-linear border-neutral-800  rounded-[7px] p-4 bg-[#151515]"
               >
-                <a href="#">
+                <a href="https://www.instagram.com/ajitsah87?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                   <PiInstagramLogo className="text-3xl text-[#986dff]" />
                 </a>
               </motion.li>
@@ -77,7 +77,7 @@ function About() {
                 transition={{ delay: 0.07*4 }}
                 className="border-[2px] hover:border-[#986dff] transition-colors duration-500 ease-linear border-neutral-800  rounded-[7px] p-4 bg-[#151515]"
               >
-                <a href="#">
+                <a href="https://wa.me/9199118582">
                   <MdWhatsapp className="text-3xl text-[#986dff]" />
                 </a>
               </motion.li>
@@ -88,7 +88,7 @@ function About() {
                 transition={{ delay: 0.07*5 }}
                 className="border-[2px] hover:border-[#986dff] transition-colors duration-500 ease-linear border-neutral-800  rounded-[7px] p-4 bg-[#151515]"
               >
-                <a href="#">
+                <a href="mailto:sahajit119@gmail.com">
                   <FiMail className="text-[1.8rem] text-[#986dff]" />
                 </a>
               </motion.li>

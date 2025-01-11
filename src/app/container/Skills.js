@@ -8,12 +8,12 @@ function Skills() {
 
   const svg = [
     {title: "html.svg", descrip: 'HTML is the standard markup language for creating Web pages.'},
-    {title: "css.svg", descrip: 'CSS is the language we use to style a Web page.'},
+    {title: "tailwind-css.svg", descrip: 'Tailwind CSS works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.'},
     {title:"javascript.svg", descrip: 'JavaScript is a scripting or programming language that allows you to implement complex features on web pages'},
     {title: "nodejs.svg", descrip: 'noAs an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications.de'},
     {title: "react.svg", descrip: 'React.js, more commonly known as React, is a free, open-source JavaScript library. It works best to build user interfaces by combining sections of code (components) into full websites.'},
     {title: "next.svg", descrip: 'Next.js is a React framework for building full-stack web applications. You use React Components to build user interfaces, and Next.js for additional features and optimizations.'},
-    {title: "tailwind-css.svg", descrip: 'Tailwind CSS works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.'},
+    {title:"Shopify.svg", descrip:'Shopify is an e-commerce platform that allows businesses to create and manage online stores easily, offering tools for product management, payments, shipping, and customer data.'},
     {title:"express-js.svg", descrip: 'Express.js is a back end web application framework for building RESTful APIs with Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js'},
   ];
 
