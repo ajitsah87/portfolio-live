@@ -14,8 +14,21 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" href="title.svg" />
       <title>Portfolio - Ajit Sah</title> 
+      <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script> 
       </head>
       <body className={inter.className}>{children}</body>
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const lenis = new Lenis()
+        
+        function raf(time) {
+          lenis.raf(time)
+          requestAnimationFrame(raf)
+        }
+        
+        requestAnimationFrame(raf)
+    })
+    </script>
     </html>
   )
 }
